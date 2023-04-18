@@ -89,6 +89,7 @@ li {
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
+ 
 }
 
 li:before {
@@ -108,6 +109,7 @@ li.checked:before {
     line-height: 1em;
     color: #008000;
     text-align: center;
+    border: 2px solid  green;
 }
 li:before {
     content: "";
