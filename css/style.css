@@ -49,6 +49,7 @@ h1{
 }
 .add-task{
     padding: 10px 0px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -59,6 +60,7 @@ h1{
 .add-section{
     background-color: white;
     color: grey;
+    margin-top: 10px;
     padding: 10px 0px;
     border-radius: 5px;
     cursor: pointer;
@@ -133,3 +135,46 @@ li.unchecked:before {
     padding: 5px;
     color: white;
 }
+.editorial-upcoming{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.goals{
+    display: inline;
+    background-color: #9c72e4;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.recruiting{
+    display: inline;
+    background-color: #64c0a9;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.mobile{
+    display: inline;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.website{
+    display: inline;
+    background-color: #d863a1;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.sales{
+    display: inline;
+    background-color: #b0c926;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
