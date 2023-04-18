@@ -35,21 +35,22 @@ h1{
     margin-left: 20px;
     vertical-align: middle;
  }
-
 .container{
     background-color: white;
     width: 50%;
     height: 700px;
-    margin: 100px auto;
+    margin: 50px auto;
+    border-radius: 10px;
 }
 
 /*buttons*/
 .buttons{
-    padding: 20px;
+    padding: 10px;
 }
 .add-task{
     padding: 10px 0px;
     margin-top: 10px;
+    margin-left: 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -128,53 +129,38 @@ li.unchecked:before {
     background-color: #fff;
     border: 2px solid #ff0000;
 }
-.editorial{
-    display: inline-block;
-    background-color: #45abea;
+
+/*Etichette*/
+.editorial, .editorial-upcoming,.goals,.recruiting,.mobile,.website,.sales{
+    display: inline;
     border-radius: 10px;
     padding: 5px;
+}
+.editorial{
+    background-color: #45abea;
     color: white;
 }
 .editorial-upcoming{
-    display: inline-block;
     background-color: orange;
-    border-radius: 10px;
-    padding: 5px;
     color: white;
 }
 .goals{
-    display: inline;
     background-color: #9c72e4;
-    border-radius: 10px;
-    padding: 5px;
     color: white;
 }
 .recruiting{
-    display: inline;
     background-color: #64c0a9;
-    border-radius: 10px;
-    padding: 5px;
     color: white;
 }
 .mobile{
-    display: inline;
     background-color: orange;
-    border-radius: 10px;
-    padding: 5px;
     color: white;
 }
 .website{
-    display: inline;
     background-color: #d863a1;
-    border-radius: 10px;
-    padding: 5px;
     color: white;
 }
 .sales{
-    display: inline;
     background-color: #b0c926;
-    border-radius: 10px;
-    padding: 5px;
     color: white;
 }
-
