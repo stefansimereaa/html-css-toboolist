@@ -47,25 +47,24 @@ h1{
 .buttons{
     padding: 10px;
 }
-.add-task{
+.add-task, .add-section{
     padding: 10px 0px;
     margin-top: 10px;
-    margin-left: 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color: #1e90ff;
     color: white;
     width: 100px;
 }
+.add-task{
+    margin-left: 20px;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+}
 .add-section{
     background-color: white;
     color: grey;
-    margin-top: 10px;
-    padding: 10px 0px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100px;
     border-color: grey;
 }
 
