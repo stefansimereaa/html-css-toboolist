@@ -58,7 +58,7 @@ h1{
 }
 .add-task{
     margin-left: 20px;
-    border: none;
+    border: 1px solid transparent;
     background-color: #1e90ff;
     color: white;
 }
